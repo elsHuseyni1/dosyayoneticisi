@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dosya Yöneticisi - Android Fayl Meneceri</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        }
+        body {
+            background-color: #0F171B;
+            color: #ECEFF1;
+            line-height: 1.6;
+            padding: 0;
+        }
+        header {
+            background: linear-gradient(135deg, #1A262C 0%, #0F171B 100%);
+            border-bottom: 1px solid #263238;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        .logo-box {
+            display: inline-block;
+            background: #4DD0E1;
+            color: #004D40;
+            font-size: 32px;
+            font-weight: bold;
+            width: 72px;
+            height: 72px;
+            line-height: 72px;
+            border-radius: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 8px 24px rgba(77, 208, 225, 0.3);
+        }
+        h1 {
+            font-size: 2.4rem;
+            color: #FFFFFF;
+            margin-bottom: 12px;
+        }
+        p.subtitle {
+            font-size: 1.2rem;
+            color: #90A4AE;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 24px;
+            margin-top: 40px;
+        }
+        .feature-card {
+            background: #1A262C;
+            border: 1px solid #263238;
+            border-radius: 16px;
+            padding: 24px;
+            transition: transform 0.2s ease;
+        }
+        .feature-card:hover {
+            transform: translateY(-4px);
+            border-color: #4DD0E1;
+        }
+        .feature-card h3 {
+            color: #4DD0E1;
+            margin-bottom: 10px;
+            font-size: 1.2rem;
+        }
+        .feature-card p {
+            color: #B0BEC5;
+            font-size: 0.95rem;
+        }
+        footer {
+            margin-top: 60px;
+            border-top: 1px solid #263238;
+            padding: 30px 20px;
+            text-align: center;
+            color: #78909C;
+            font-size: 0.9rem;
+        }
+        footer a {
+            color: #4DD0E1;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo-box">DY</div>
+        <h1>Dosya Yöneticisi</h1>
+        <p class="subtitle">Android üçün müasir, sürətli və təhlükəsiz fayl idarəetmə tətbiqi.</p>
+    </header>
+
+    <div class="container">
+        <h2 style="text-align: center; color: #FFFFFF; margin-bottom: 30px;">Əsas Xüsusiyyətlər</h2>
+        <div class="features">
+            <div class="feature-card">
+                <h3>☁️ Google Drive İnteqrasiyası</h3>
+                <p>Google hesabınıza birbaşa qoşularaq bulud fayllarınızı və qovluqlarınızı sinxronlaşdırın və idarə edin.</p>
+            </div>
+            <div class="feature-card">
+                <h3>🔒 Təhlükəsiz Kasa (Vault)</h3>
+                <p>Şəxsi fayllarınızı və şəkillərinizi PIN kod və şifrələmə ilə etibarlı şəkildə qoruyun.</p>
+            </div>
+            <div class="feature-card">
+                <h3>🎬 Daxili Media və Sənəd Oxuyucu</h3>
+                <p>Video, musiqi, şəkil, PDF və mətn fayllarını əlavə proqram tələb etmədən birbaşa tətbiq daxilində açın.</p>
+            </div>
+            <div class="feature-card">
+                <h3>📶 Wi-Fi ilə Simsiz Fayl Paylaşımı</h3>
+                <p>Kabelə ehtiyac olmadan yerli şəbəkə vasitəsilə telefon və kompüter arasında faylları ötürün.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Dosya Yöneticisi. Bütün hüquqlar qorunur.</p>
+        <p style="margin-top: 10px;">
+            <a href="privacy.html">Məxfilik Siyasəti (Privacy Policy)</a>
+        </p>
+    </footer>
+
+</body>
+</html>
